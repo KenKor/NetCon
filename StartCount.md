@@ -4,7 +4,7 @@ description: Number of connections that have been retrieved by using the start p
 Type: int
 Order: 20
 Unique: false
-permalink: 
+permalink: Results/StartCount
 aliases: 
 draft: false
 date: 2024-09-27
