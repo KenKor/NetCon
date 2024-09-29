@@ -1,0 +1,20 @@
+---
+title: Success
+description: True if any results have been retrieved.
+Type: boolean
+Order: 100
+Unique: false
+permalink: 
+aliases: 
+draft: false
+date: 2024-09-27
+tags:
+  - GetConnection
+  - ApiResult
+---
+# Success
+
+Type of: _boolean_
+Mandatory: __
+
+True if any results have been retrieved.
