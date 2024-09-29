@@ -5,7 +5,8 @@ Type: boolean
 Order: 100
 Unique: false
 permalink: 
-aliases: 
+aliases:
+  - Results/Success
 draft: false
 date: 2024-09-27
 tags:
