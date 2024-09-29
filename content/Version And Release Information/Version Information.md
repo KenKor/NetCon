@@ -7,9 +7,6 @@ draft: false
 date: 2024-09-27
 Version: 2024.1.3
 Product: NetCon 2.0
-tags:
-  - Index
-  - ToDo
 ---
 # Releases
 

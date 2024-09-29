@@ -8,8 +8,6 @@ date: 2024-09-27
 tags:
   - Overview
   - Example
-  - Index
-  - ToDo
 ---
 # Data flow example I: From GIS valve to simple flow calculation
 

@@ -10,8 +10,6 @@ tags:
   - Section
   - Overview
   - NetCon2
-  - Index
-  - ToDo
 ---
 # Clustering the Network into Sections
 

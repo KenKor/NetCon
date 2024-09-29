@@ -10,7 +10,6 @@ tags:
   - OperationalState
   - Overview
   - ToDo
-  - Index
 ---
 # Barrier or Operational State
 

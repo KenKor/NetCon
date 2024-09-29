@@ -11,8 +11,6 @@ tags:
   - AssetId
   - CustomAssetId
   - Overview
-  - Index
-  - ToDo
 ---
 # Referential Information
 

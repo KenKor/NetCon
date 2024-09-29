@@ -4,8 +4,6 @@ draft: false
 tags:
   - background_usecases
   - todo
-  - Index
-  - ToDo
 date: 2024-09-24
 ---
 You can do amazing things with NetCon, like improving NetCongestion.

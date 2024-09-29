@@ -13,8 +13,6 @@ tags:
   - DataFlow
   - Connectivity
   - Topology
-  - Index
-  - ToDo
 ---
 # Connectivity Extraction Process
 

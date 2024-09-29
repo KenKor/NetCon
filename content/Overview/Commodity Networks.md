@@ -9,8 +9,6 @@ tags:
   - Overview
   - Commodity
   - Disciplin
-  - Index
-  - ToDo
 ---
 # Commodity Networks
 

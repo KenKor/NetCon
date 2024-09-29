@@ -5,9 +5,6 @@ permalink:
 aliases: 
 draft: false
 date: 2024-09-27
-tags:
-  - Index
-  - ToDo
 ---
 # Copyright and Usage
 © Spatial Eye 2022-2024

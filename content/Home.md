@@ -1,8 +1,3 @@
----
-tags:
-  - Index
-  - ToDo
----
 # NetCon Help
 
 Welcome to the first online Spatial Eye NetCon© Help site. Here you can find the background information on how to install, configure and use NetCon, and its related components such as the TraceApi or Flow Calculation export.

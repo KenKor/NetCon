@@ -8,8 +8,6 @@ date: 2024-09-27
 tags:
   - data_sources
   - Overview
-  - Index
-  - ToDo
 ---
 # Four common sources of information for network connectivity
 
