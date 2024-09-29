@@ -1,7 +1,7 @@
 ---
 title: get-connection
 description: 
-permalink: 
+permalink: Calls/GetConnection
 aliases: 
 draft: false
 date: 2024-09-27
@@ -21,7 +21,7 @@ If the search parameters are specified as wildcards, many matching records can b
 If no parameters are provided, the [[Sources|Sources]] (see also [[Role|Role]]) in the network are retrieved.
 
 ## Parameters
-| File                                                                         | type   | mand  | description                                                                                                                                                                                                                                           |
+| Link                                                                         | type   | mand  | description                                                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------- | ------ | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[../Parameters/AssetTableNameWildCard\|AssetTableNameWildCard]] | string | false | Name of the asset table in the NetConConnection table. It may contain wild cards if you want to search more than one table. If this parameter is kept empty (no name and no pattern), it will change the interpretation of the [[AssetId|AssetId]] parameter. |
 | [[../Parameters/AssetId\|AssetId]]                               | long   | false | The number that matches the AssetId of one or more of the NetConConnections exactly. If AssetTableNameWildCard is empty this parameter will be interpreted as ConnectionId.                                                                           |
@@ -29,7 +29,7 @@ If no parameters are provided, the [[Sources|Sources]] (see also [[Role|Role]]) 
 | [[../Parameters/LabelWildCard\|LabelWildCard]]                   | string | false | The string or pattern that matches the Label of the NetConConnection, if this was provided. For example: "circuitbreaker:1234" or "circuitbreaker*" or "123456789-*".                                                                                 |
 
 ## Results
-| File                                                  | type    | unique | description                                                                   |
+| Link                                                  | type    | unique | description                                                                   |
 | ----------------------------------------------------- | ------- | ------ | ----------------------------------------------------------------------------- |
 | [[../Results/StartCount\|StartCount]]     | int     | false  | Number of connections that have been retrieved by using the start parameters. |
 | [[../Results/Success\|Success]]           | boolean | false  | True if any results have been retrieved.                                      |
@@ -37,7 +37,7 @@ If no parameters are provided, the [[Sources|Sources]] (see also [[Role|Role]]) 
 
 
 ## Connections
-| File                                                                               | type    | unique | description                                                                           |
+| Link                                                                               | type    | unique | description                                                                           |
 | ---------------------------------------------------------------------------------- | ------- | ------ | ------------------------------------------------------------------------------------- |
 | [[../Results/Connection Or Path Results/Id\|Id]]                       | long    | true   | Id for the NetCon connection as described in this document.                           |
 | [[../Results/Connection Or Path Results/FromId\|FromId]]               | long    | false  | Id identifying the node departing from.                                               |

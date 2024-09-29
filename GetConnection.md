@@ -21,7 +21,7 @@ If the search parameters are specified as wildcards, many matching records can b
 If no parameters are provided, the [[Sources|Sources]] (see also [[Role|Role]]) in the network are retrieved.
 
 ## Parameters
-| File                                                                         | type   | mand  | description                                                                                                                                                                                                                                           |
+| Link                                                                         | type   | mand  | description                                                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------- | ------ | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[./AssetTableNameWildCard\|AssetTableNameWildCard]] | string | false | Name of the asset table in the NetConConnection table. It may contain wild cards if you want to search more than one table. If this parameter is kept empty (no name and no pattern), it will change the interpretation of the [[AssetId|AssetId]] parameter. |
 | [[./AssetId\|AssetId]]                               | long   | false | The number that matches the AssetId of one or more of the NetConConnections exactly. If AssetTableNameWildCard is empty this parameter will be interpreted as ConnectionId.                                                                           |
@@ -29,7 +29,7 @@ If no parameters are provided, the [[Sources|Sources]] (see also [[Role|Role]]) 
 | [[./LabelWildCard\|LabelWildCard]]                   | string | false | The string or pattern that matches the Label of the NetConConnection, if this was provided. For example: "circuitbreaker:1234" or "circuitbreaker*" or "123456789-*".                                                                                 |
 
 ## Results
-| File                                                  | type    | unique | description                                                                   |
+| Link                                                  | type    | unique | description                                                                   |
 | ----------------------------------------------------- | ------- | ------ | ----------------------------------------------------------------------------- |
 | [[./StartCount\|StartCount]]     | int     | false  | Number of connections that have been retrieved by using the start parameters. |
 | [[./Success\|Success]]           | boolean | false  | True if any results have been retrieved.                                      |
@@ -37,7 +37,7 @@ If no parameters are provided, the [[Sources|Sources]] (see also [[Role|Role]]) 
 
 
 ## Connections
-| File                                                                               | type    | unique | description                                                                           |
+| Link                                                                               | type    | unique | description                                                                           |
 | ---------------------------------------------------------------------------------- | ------- | ------ | ------------------------------------------------------------------------------------- |
 | [[./Id\|Id]]                       | long    | true   | Id for the NetCon connection as described in this document.                           |
 | [[./FromId\|FromId]]               | long    | false  | Id identifying the node departing from.                                               |
