@@ -10,6 +10,8 @@ tags:
   - Smallworld
   - Connectivity
   - Extraction
+  - Index
+  - ToDo
 ---
 # Connectivity Extraction from Smallworld
 
