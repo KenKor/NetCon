@@ -5,7 +5,8 @@ Type: string
 Mandatory: false
 Order: 10
 permalink: 
-aliases: 
+aliases:
+  - Parameters/AssetTableNameWildCard
 draft: false
 date: 2024-09-27
 tags:

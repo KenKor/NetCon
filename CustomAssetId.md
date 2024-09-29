@@ -4,7 +4,7 @@ description: The string that matches the CustomAssetId of one or more of the Net
 Type: string
 Mandatory: false
 Order: 22
-permalink: 
+permalink: Parameters/CustomAssetId
 aliases: 
 date: 2024-09-27
 draft: false

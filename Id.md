@@ -4,7 +4,7 @@ description: Id for the NetCon connection as described in this document.
 Type: long
 Order: 10
 Unique: true
-permalink: 
+permalink: Connection-Or-Path-Results/Id
 aliases: 
 draft: false
 date: 2024-09-27
