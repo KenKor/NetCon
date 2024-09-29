@@ -1,7 +1,7 @@
 ---
 title: get-connection
 description: 
-permalink: 
+permalink: Calls/GetConnection
 aliases: 
 draft: false
 date: 2024-09-27
