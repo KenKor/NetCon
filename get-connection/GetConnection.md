@@ -23,26 +23,26 @@ If no parameters are provided, the [[Sources|Sources]] (see also [[Role|Role]]) 
 ## Parameters
 | Link                                                                         | type   | mand  | description                                                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------- | ------ | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[../Parameters/AssetTableNameWildCard\|AssetTableNameWildCard]] | string | false | Name of the asset table in the NetConConnection table. It may contain wild cards if you want to search more than one table. If this parameter is kept empty (no name and no pattern), it will change the interpretation of the [[AssetId|AssetId]] parameter. |
-| [[../Parameters/AssetId\|AssetId]]                               | long   | false | The number that matches the AssetId of one or more of the NetConConnections exactly. If AssetTableNameWildCard is empty this parameter will be interpreted as ConnectionId.                                                                           |
-| [[../Parameters/CustomAssetId\|CustomAssetId]]                   | string | false | The string that matches the CustomAssetId of one or more of the NetConConnections exactly.                                                                                                                                                            |
-| [[../Parameters/LabelWildCard\|LabelWildCard]]                   | string | false | The string or pattern that matches the Label of the NetConConnection, if this was provided. For example: "circuitbreaker:1234" or "circuitbreaker*" or "123456789-*".                                                                                 |
+| [[../AssetTableNameWildCard/AssetTableNameWildCard\|AssetTableNameWildCard]] | string | false | Name of the asset table in the NetConConnection table. It may contain wild cards if you want to search more than one table. If this parameter is kept empty (no name and no pattern), it will change the interpretation of the [[AssetId|AssetId]] parameter. |
+| [[../AssetId/AssetId\|AssetId]]                               | long   | false | The number that matches the AssetId of one or more of the NetConConnections exactly. If AssetTableNameWildCard is empty this parameter will be interpreted as ConnectionId.                                                                           |
+| [[../CustomAssetId/CustomAssetId\|CustomAssetId]]                   | string | false | The string that matches the CustomAssetId of one or more of the NetConConnections exactly.                                                                                                                                                            |
+| [[../LabelWildCard/LabelWildCard\|LabelWildCard]]                   | string | false | The string or pattern that matches the Label of the NetConConnection, if this was provided. For example: "circuitbreaker:1234" or "circuitbreaker*" or "123456789-*".                                                                                 |
 
 ## Results
 | Link                                                  | type    | unique | description                                                                   |
 | ----------------------------------------------------- | ------- | ------ | ----------------------------------------------------------------------------- |
-| [[../Results/StartCount\|StartCount]]     | int     | false  | Number of connections that have been retrieved by using the start parameters. |
-| [[../Results/Success\|Success]]           | boolean | false  | True if any results have been retrieved.                                      |
-| [[../Results/ResultsCount\|ResultsCount]] | int     | false  | Number of connections that have been retrieved by performing the search.      |
+| [[../StartCount/StartCount\|StartCount]]     | int     | false  | Number of connections that have been retrieved by using the start parameters. |
+| [[../Success/Success\|Success]]           | boolean | false  | True if any results have been retrieved.                                      |
+| [[../ResultsCount/ResultsCount\|ResultsCount]] | int     | false  | Number of connections that have been retrieved by performing the search.      |
 
 
 ## Connections
 | Link                                                                               | type    | unique | description                                                                           |
 | ---------------------------------------------------------------------------------- | ------- | ------ | ------------------------------------------------------------------------------------- |
-| [[../Results/Connection Or Path Results/Id\|Id]]                       | long    | true   | Id for the NetCon connection as described in this document.                           |
-| [[../Results/Connection Or Path Results/FromId\|FromId]]               | long    | false  | Id identifying the node departing from.                                               |
-| [[../Results/Connection Or Path Results/ToId\|ToId]]                   | long    | false  | Id identifying the node going to.                                                     |
-| [[../Results/Connection Or Path Results/BiDirectional\|BiDirectional]] | boolean | false  | False if this connection goes only from FromId to ToId, true if it also returns back. |
+| [[../Id/Id\|Id]]                       | long    | true   | Id for the NetCon connection as described in this document.                           |
+| [[../FromId/FromId\|FromId]]               | long    | false  | Id identifying the node departing from.                                               |
+| [[../ToId/ToId\|ToId]]                   | long    | false  | Id identifying the node going to.                                                     |
+| [[../BiDirectional/BiDirectional\|BiDirectional]] | boolean | false  | False if this connection goes only from FromId to ToId, true if it also returns back. |
 
 
 ---
