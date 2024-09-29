@@ -11,6 +11,8 @@ tags:
   - CIM
   - ADMS
   - Terminal
+  - Index
+  - ToDo
 ---
 # Data flow example IV: From GIS T-piece to Common Information Model
 
