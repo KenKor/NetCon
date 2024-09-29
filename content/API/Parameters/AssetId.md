@@ -4,7 +4,7 @@ description: The number that matches the AssetId of one or more of the NetConCon
 Type: long
 Order: 20
 Mandatory: false
-permalink: 
+permalink: Parameters/AssetId
 aliases: 
 draft: false
 date: 2024-09-27

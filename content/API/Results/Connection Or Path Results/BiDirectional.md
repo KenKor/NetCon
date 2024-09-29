@@ -4,7 +4,7 @@ description: False if this connection goes only from FromId to ToId, true if it 
 Type: boolean
 Order: 40
 Unique: false
-permalink: 
+permalink: Connection-Or-Path-Results/BiDirectional
 aliases: 
 draft: false
 date: 2024-09-27

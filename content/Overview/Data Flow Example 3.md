@@ -3,7 +3,7 @@ title: Data Flow Example 3
 description: 
 permalink: 
 aliases: 
-draft: true
+draft: false
 date: 2024-09-27
 tags:
   - Overview

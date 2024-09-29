@@ -4,7 +4,7 @@ description: Number of connections that have been retrieved by performing the se
 Type: int
 Order: 999
 Unique: false
-permalink: 
+permalink: Results/ResultsCount
 aliases: 
 draft: false
 date: 2024-09-27

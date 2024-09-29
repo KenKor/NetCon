@@ -4,7 +4,7 @@ description: Id identifying the node departing from.
 Type: long
 Order: 20
 Unique: false
-permalink: 
+permalink: Connection-Or-Path-Results/FromId
 aliases: 
 draft: false
 date: 2024-09-27
