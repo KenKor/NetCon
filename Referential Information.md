@@ -3,7 +3,7 @@ title: Referential Information
 description: 
 permalink: 
 aliases: 
-draft: true
+draft: false
 date: 2024-09-27
 tags:
   - Reference
