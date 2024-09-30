@@ -38,7 +38,7 @@ Overview
 
 Getting started
 
-1. [[./Getting started/Download and Install NetCon|Download and Install NetCon]]
+1. [[Download and Install NetCon|Download and Install NetCon]]
 2. [[./Getting started/Connectivity Extraction Process|Connectivity Extraction Process]]
-3. [[./Getting started/Viewing Connectivity|Viewing Connectivity]]
+3. [[Viewing Connectivity|Viewing Connectivity]]
 4. [[Querying Connectivity|Querying Connectivity]]
