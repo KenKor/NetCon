@@ -9,8 +9,8 @@ aliases:
 date: 2024-09-27
 draft: false
 tags:
-  - GetConnection
   - ApiParameter
+  - LabelWildCard
 ---
 # LabelWildCard
 
