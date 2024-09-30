@@ -10,7 +10,7 @@ CompanySE: Spatial Eye
 DesktopGE: GeoSpatial Analysis
 ServerGE: GeoSpatial Analysis Server
 VersionGE: 5.3.4
-CompanyGE: General Electric Vernova
+CompanyGE: General Electric
 ---
 Instruction on how to use the variables in your Mark Down document:
 * Install and Enable the DataView plugin
@@ -20,3 +20,4 @@ Instruction on how to use the variables in your Mark Down document:
 	Download the installers for Spatial Workshop and XY Server version 2024.1.3
 ```
 
+Hello 2024.1.3 world.

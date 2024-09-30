@@ -30,8 +30,8 @@ This section contains the version information for the `Spatial Eye NetCon` produ
 New:
 - [[../Expressions/NetCon Expressions|NetCon Expressions]] to compute traces and query in all the Spatial Eye products.
 - [[NetCon TraceApi|NetCon TraceApi]] has been made available for the Spatial Eye server product.
-- [[Label|Label]] property has been added to the Connection definition to allow for a company wide name ontology.
-- [[Specification|Specification]] property has been added to enable a central specification system to enrich assets with type or manufacturer specification information.
+- [[../API/Results/Connection Or Path Results/Label|Label]] property has been added to the Connection definition to allow for a company wide name ontology.
+- [[../API/Parameters/SpecificationPattern|SpecificationPattern]] property has been added to enable a central specification system to enrich assets with type or manufacturer specification information.
 
 Updated:
 * The network cluster-er is extended with the ability to compute different cluster sections in one batch.

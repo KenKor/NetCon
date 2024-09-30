@@ -10,6 +10,10 @@ draft: true
 date: <% tp.date.now() %>
 tags:
   - ApiParameter
+  - <% tp.file.title %>
+  - <%
+  - tp.file.title
+  - "%>"
 ---
 # <% tp.file.title %>
 
