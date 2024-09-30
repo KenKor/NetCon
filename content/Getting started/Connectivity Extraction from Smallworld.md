@@ -10,6 +10,7 @@ tags:
   - Smallworld
   - Connectivity
   - Extraction
+  - GettingStarted
 ---
 # Connectivity Extraction from Smallworld
 
