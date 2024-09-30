@@ -11,8 +11,9 @@ tags:
 # Documentation Process
 
 The documentation process should be:
+
 * Trustable
-* Have the document content registered in the git version control with the source code
+* Have the documentation content registered in the git version control with the source code
 * Be built on standard components
 * Support:
 	* Branding
@@ -22,6 +23,7 @@ The documentation process should be:
 * Scale
 
 The process that has been currently drafted is depicted below:
+
 ```mermaid
 graph LR
   subgraph Develop
@@ -40,3 +42,6 @@ graph LR
   end
 ```
 
+Remarks:
+
+* Working together
