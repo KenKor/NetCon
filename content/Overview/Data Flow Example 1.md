@@ -69,7 +69,5 @@ flowchart TD
   classDef barrierStyle fill:#bbf
 ```
 
-<!-- ---
-![Example 1: One valve connecting two pipes.](./images/example1_onevalve.png)
---- --->
+![[../Zimages/example1_onevalve.png|example1_onevalve.png]]
 
