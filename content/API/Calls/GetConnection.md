@@ -8,6 +8,7 @@ date: 2024-09-27
 tags:
   - GetConnection
   - ApiSearchCall
+  - ApiCall
   - ToDo
 ---
 # API Search GetConnection
@@ -28,12 +29,13 @@ If no parameters are provided, the [[Sources|Sources]] (see also [[Role|Role]]) 
 | [[../Parameters/CustomAssetId\|CustomAssetId]]                   | string | false | The string that matches the CustomAssetId of one or more of the NetConConnections exactly.                                                                                                                                                            |
 | [[../Parameters/LabelWildCard\|LabelWildCard]]                   | string | false | The string or pattern that matches the Label of the NetConConnection, if this was provided. For example: "circuitbreaker:1234" or "circuitbreaker*" or "123456789-*".                                                                                 |
 
+
 ## Results
 | Link                                                  | type    | unique | description                                                                   |
 | ----------------------------------------------------- | ------- | ------ | ----------------------------------------------------------------------------- |
 | [[../Results/StartCount\|StartCount]]     | int     | false  | Number of connections that have been retrieved by using the start parameters. |
-| [[../Results/Success\|Success]]           | boolean | false  | True if any results have been retrieved.                                      |
 | [[../Results/ResultsCount\|ResultsCount]] | int     | false  | Number of connections that have been retrieved by performing the search.      |
+| [[../Results/Success\|Success]]           | boolean | false  | True if any results have been retrieved.                                      |
 
 
 ## Connections
