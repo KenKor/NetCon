@@ -1,6 +1,6 @@
 ---
 title: GeometryP
-description: Point geometry providing the position of the asset for this connection.
+description: Point geometry denoting the position(s) of the asset or group of assets for this connection.
 Type: multipoint
 Order: 999
 Unique: false
@@ -17,5 +17,5 @@ tags:
 Type of: _multipoint_
 Unique: __
 
-Point geometry providing the position of the asset for this connection.
+Point geometry denoting the position(s) of the asset or group of assets for this connection.
 
