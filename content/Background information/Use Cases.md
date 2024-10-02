@@ -6,8 +6,11 @@ tags:
   - todo
 date: 2024-09-24
 ---
-You can do amazing things with NetCon, like improving NetCongestion.
+[[../Version And Release Information/Road-map||previous]] [[../Overview/Purpose and Examples|next]]
+You can do amazing things with NetCon, like improving the data quality of your network, alleviating NetCongestion, realising a digital twin, etc.
+
 #todo
+This page needs to be improved and describe more about the use cases.
 
 Spatial Eye is set to solve the business cases below using the NetCon model or work with customers and partners to do so. Besides the business cases mentioned here, numerous others are possible. You are welcome to build your own solutions on top of the NetCon model, as long as you acquire a license for it.
 
