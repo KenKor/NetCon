@@ -9,6 +9,7 @@ tags:
   - data_sources
   - Overview
 ---
+[[./Solution Architecture|previous]] [[./Commodity Networks|next]]
 # Four common sources of information for network connectivity
 
 
