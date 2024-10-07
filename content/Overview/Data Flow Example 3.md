@@ -11,6 +11,7 @@ tags:
   - FlowCalculator
   - Terminal
 ---
+[[./Data Flow Example 2|previous]] [[./Data Flow Example 4|next]]
 # Data flow example III: From GIS T-piece to simple flow calculation
 
 In the example below, we have a single continuous asset in the GIS, pipe 1, which is punctured so it can branch off into a different direction, which is pipe 2.
@@ -63,7 +64,6 @@ flowchart TD
   classDef barrierStyle fill:#bbf
 ```
 
-<!-- ---
-![Example 3: One pipe branching of another.](./images/example3_tpiece.png)
---- -->
-
+---
+Example 3: One pipe branching of another.
+![[../Zimages/example3_tpiece.png|example3_tpiece.png]]

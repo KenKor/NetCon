@@ -10,7 +10,7 @@ tags:
   - Overview
   - ToDo
 ---
----
+[[./Commodity Networks|previous]] [[./Network Ontology|next]] 
 # Commodity
 
 The commodity of a network is what is being transported by it.

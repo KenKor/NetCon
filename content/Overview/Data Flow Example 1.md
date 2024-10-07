@@ -9,6 +9,7 @@ tags:
   - Overview
   - Example
 ---
+[[./Purpose and Examples|previous]] [[./Data Flow Example 2|Data Flow Example 2]]
 # Data flow example I: From GIS valve to simple flow calculation
 
 
@@ -69,5 +70,7 @@ flowchart TD
   classDef barrierStyle fill:#bbf
 ```
 
+---
+Example 1: One valve connecting two pipes.
 ![[../Zimages/example1_onevalve.png|example1_onevalve.png]]
 

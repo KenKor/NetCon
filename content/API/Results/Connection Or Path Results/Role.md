@@ -1,6 +1,6 @@
 ---
 title: Role
-description: Role
+description: The role that this connection has in the commodity network. See [[NetCon Role Enumerator|NetCon Role Enumerator]].
 Type: integer
 Order: 999
 Unique: false
@@ -17,5 +17,4 @@ tags:
 Type of: _integer_
 Unique: __
 
-Role
-
+The role that this connection has in the commodity network. See [[NetCon Role Enumerator|NetCon Role Enumerator]].

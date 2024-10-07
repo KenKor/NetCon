@@ -19,4 +19,7 @@ Unique: _true_
 
 Id for the NetCon connection as described in this document.
 
+In case this is a path, it is the unique id for last the connection used in the result path. This can also be used as a unique id for the path in a particular trace, since the same connection will not be returned twice.
+
 Previously this result attribute was called `ConnectionId`.
+
