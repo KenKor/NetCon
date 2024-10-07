@@ -1,6 +1,6 @@
 ---
 title: Message
-description: Last message provided as logging information for this state.
+description: Last message provided as logging information for this result or state.
 Type: string
 Order: 999
 Unique: false
@@ -17,7 +17,7 @@ tags:
 Type of: _string_
 Unique: __
 
-Last message provided as logging information for this state.
+Last message provided as logging information for this result or state.
 
 
 

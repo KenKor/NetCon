@@ -5,7 +5,7 @@ permalink:
 aliases: 
 draft: true
 date: 2024-09-30
-share: false
+shared: false
 tags: 
 ---
 # Documentation Process
@@ -15,11 +15,13 @@ The documentation process should be:
 * Trustable
 * Have the documentation content registered in the git version control with the source code
 * Be built on standard components
+	* The file format that has been chosen is MarkDown
 * Support:
 	* Branding
 	* Search
 	* Translation
 	* Reuse of shared content
+	* Collaborating
 * Scale
 
 The process that has been currently drafted is depicted below:
@@ -42,6 +44,6 @@ graph LR
   end
 ```
 
-Remarks:
+## Remarks from team discussion
 
-* Working together
+- [ ] We need to be able to collaborate or working together. For this we need to agree on how we avoid conflicts.

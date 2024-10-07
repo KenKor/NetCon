@@ -9,6 +9,7 @@ tags:
   - LifeCycleStatus
   - Overview
 ---
+[[./Network Ontology|previous]] [[./Barrier or Operational State|next]]
 # Life Cycle Status
 
 
@@ -27,9 +28,11 @@ On the negative scale, one finds planned assets, not realized yet. The further n
 The more positive, the further away from being in service. For example, 'planned-to-be-detached' is larger than 'in service', and 'spare' is bigger even, while 'dumped-as-junk' is probably the largest.
 
 Thus, all these different states of the asset life cycle can be depicted on an imaginary time scale, from planned (<0, unknown =0, in service >0 and <=10, to out of service >10). The more negative, the further away from realization. The closest to 1, the more in normal operation. This time scale has been designed this way so one can reason with a subset of the status time scale. Most of the times, one works just with the network as it is currently 'wired':
->	>=0 and <= 10.
+
+>	\>=0 and <= 10.
 
 However, one may choose to reason with a future network that has been commissioned, without those parts of the network that are decommissioned:
+
 >	= -10 and <= 1
 
 By making the status a dimension, a range of values (start and end value) can be selected when doing a trace. This way one could also trace the network 'as if' (future scenarios, or when to include old assets in a restoration scenario). The default operation of the network is just to use status values >= 0 and <= 10, which are 'unknown', 'in service' and 'planned-to-be-detached'.

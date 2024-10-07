@@ -6,6 +6,7 @@ aliases:
 draft: false
 date: 2024-09-27
 ---
+[[../index|previous]] [[./Introduction|next]]
 # Copyright and Usage
 © Spatial Eye 2022-2024
 
